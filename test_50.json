@@ -1,0 +1,308 @@
+{
+  "response": {
+    "apps": [
+      {
+        "appid": 10,
+        "name": "Counter-Strike",
+        "last_modified": 1745368572,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 20,
+        "name": "Team Fortress Classic",
+        "last_modified": 1745368565,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 30,
+        "name": "Day of Defeat",
+        "last_modified": 1745368580,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 40,
+        "name": "Deathmatch Classic",
+        "last_modified": 1745368570,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 50,
+        "name": "Half-Life: Opposing Force",
+        "last_modified": 1745368539,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 60,
+        "name": "Ricochet",
+        "last_modified": 1745368568,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 70,
+        "name": "Half-Life",
+        "last_modified": 1745368462,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 80,
+        "name": "Counter-Strike: Condition Zero",
+        "last_modified": 1745368574,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 130,
+        "name": "Half-Life: Blue Shift",
+        "last_modified": 1745368541,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 220,
+        "name": "Half-Life 2",
+        "last_modified": 1745368545,
+        "price_change_number": 38162588
+      },
+      {
+        "appid": 240,
+        "name": "Counter-Strike: Source",
+        "last_modified": 1745368575,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 300,
+        "name": "Day of Defeat: Source",
+        "last_modified": 1763407002,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 320,
+        "name": "Half-Life 2: Deathmatch",
+        "last_modified": 1749481506,
+        "price_change_number": 38162588
+      },
+      {
+        "appid": 360,
+        "name": "Half-Life Deathmatch: Source",
+        "last_modified": 1745368549,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 400,
+        "name": "Portal",
+        "last_modified": 1745368554,
+        "price_change_number": 38162588
+      },
+      {
+        "appid": 440,
+        "name": "Team Fortress 2",
+        "last_modified": 1757348372,
+        "price_change_number": 38162588
+      },
+      {
+        "appid": 500,
+        "name": "Left 4 Dead",
+        "last_modified": 1745368560,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "last_modified": 1772742214,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 570,
+        "name": "Dota 2",
+        "last_modified": 1769535998,
+        "price_change_number": 38162533
+      },
+      {
+        "appid": 620,
+        "name": "Portal 2",
+        "last_modified": 1745363004,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 630,
+        "name": "Alien Swarm",
+        "last_modified": 1763407010,
+        "price_change_number": 23464127
+      },
+      {
+        "appid": 660,
+        "name": "Portal 2 Sixense MotionPack DLC",
+        "last_modified": 1447354286,
+        "price_change_number": 0
+      },
+      {
+        "appid": 730,
+        "name": "Counter-Strike 2",
+        "last_modified": 1784564069,
+        "price_change_number": 38136902
+      },
+      {
+        "appid": 1002,
+        "name": "Rag Doll Kung Fu",
+        "last_modified": 1611415705,
+        "price_change_number": 26388145
+      },
+      {
+        "appid": 1200,
+        "name": "Red Orchestra: Ostfront 41-45",
+        "last_modified": 1551467896,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 1250,
+        "name": "Killing Floor",
+        "last_modified": 1726777771,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 1256,
+        "name": "Killing Floor Outbreak Character Pack",
+        "last_modified": 1447352357,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 1257,
+        "name": "Killing Floor: Nightfall Character Pack",
+        "last_modified": 1447352643,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 1300,
+        "name": "SiN Episodes: Emergence",
+        "last_modified": 1765989543,
+        "price_change_number": 37396528
+      },
+      {
+        "appid": 1313,
+        "name": "SiN Gold",
+        "last_modified": 1765989643,
+        "price_change_number": 37396528
+      },
+      {
+        "appid": 1500,
+        "name": "Darwinia",
+        "last_modified": 1779028568,
+        "price_change_number": 38555611
+      },
+      {
+        "appid": 1510,
+        "name": "Uplink",
+        "last_modified": 1739068939,
+        "price_change_number": 38555611
+      },
+      {
+        "appid": 1520,
+        "name": "DEFCON",
+        "last_modified": 1739091415,
+        "price_change_number": 38555611
+      },
+      {
+        "appid": 1530,
+        "name": "Multiwinia",
+        "last_modified": 1739429210,
+        "price_change_number": 38555611
+      },
+      {
+        "appid": 1600,
+        "name": "Dangerous Waters",
+        "last_modified": 1759951459,
+        "price_change_number": 38672960
+      },
+      {
+        "appid": 1610,
+        "name": "Space Empires IV Deluxe",
+        "last_modified": 1759953528,
+        "price_change_number": 38672960
+      },
+      {
+        "appid": 1620,
+        "name": "Jagged Alliance 2 Gold",
+        "last_modified": 1764098252,
+        "price_change_number": 38193404
+      },
+      {
+        "appid": 1630,
+        "name": "Disciples II: Rise of the Elves ",
+        "last_modified": 1764279401,
+        "price_change_number": 38193404
+      },
+      {
+        "appid": 1640,
+        "name": "Disciples II: Gallean's Return",
+        "last_modified": 1759955914,
+        "price_change_number": 38193404
+      },
+      {
+        "appid": 1670,
+        "name": "Iron Warriors: T-72 Tank Command ",
+        "last_modified": 1775918963,
+        "price_change_number": 37480217
+      },
+      {
+        "appid": 1690,
+        "name": "Space Empires V",
+        "last_modified": 1759953536,
+        "price_change_number": 38672960
+      },
+      {
+        "appid": 1700,
+        "name": "Arx Fatalis",
+        "last_modified": 1781905024,
+        "price_change_number": 38004287
+      },
+      {
+        "appid": 1840,
+        "name": "Source Filmmaker",
+        "last_modified": 1677267197,
+        "price_change_number": 0
+      },
+      {
+        "appid": 1900,
+        "name": "Earth 2160",
+        "last_modified": 1623327678,
+        "price_change_number": 38672960
+      },
+      {
+        "appid": 1930,
+        "name": "Two Worlds Epic Edition",
+        "last_modified": 1694869345,
+        "price_change_number": 38672960
+      },
+      {
+        "appid": 2100,
+        "name": "Dark Messiah of Might & Magic",
+        "last_modified": 1765228880,
+        "price_change_number": 37149137
+      },
+      {
+        "appid": 2200,
+        "name": "Quake III Arena",
+        "last_modified": 1782164859,
+        "price_change_number": 38004287
+      },
+      {
+        "appid": 2210,
+        "name": "Quake 4",
+        "last_modified": 1664372514,
+        "price_change_number": 38004287
+      },
+      {
+        "appid": 2270,
+        "name": "Wolfenstein 3D",
+        "last_modified": 1750784646,
+        "price_change_number": 38004287
+      },
+      {
+        "appid": 2280,
+        "name": "DOOM + DOOM II",
+        "last_modified": 1750785073,
+        "price_change_number": 38004287
+      }
+    ],
+    "have_more_results": true,
+    "last_appid": 2280
+  }
+}
