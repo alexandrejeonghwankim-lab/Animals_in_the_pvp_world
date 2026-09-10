@@ -32,6 +32,7 @@ def fetch_app_page(api_key):
         "include_software": True,
         "include_videos": True,
         "include_hardware": True,
+        "last_appid": 5204710
     }
 
     params = {
@@ -42,6 +43,7 @@ def fetch_app_page(api_key):
 
     url = config.API_URL + "?" + urlencode(params)
 
+    print("Fetching steam API data ...")
     with urlopen(url, timeout=60) as response:
         return json.loads(response.read().decode("utf-8"))
 
@@ -56,8 +58,18 @@ def main():
         return
 
     data = fetch_app_page(api_key)
-    print("printing...")
-    with open("test_50.json", 'w') as outfile:
+    print("printing : ", len(data["response"]["apps"]))
+    try :
+
+        more_to_come = data["response"]["have_more_results"]
+
+        print("More to come: ", more_to_come)
+        if more_to_come:
+            print("Last appid:", data["response"]["last_appid"])
+    except Exception as e:
+        print("Issues with have_more_results and last_appid :", e)
+
+    with open("from250kup.json", 'w') as outfile:
         json.dump(data, outfile, indent=2)
 
 
