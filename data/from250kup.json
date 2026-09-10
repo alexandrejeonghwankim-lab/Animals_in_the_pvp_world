@@ -1,0 +1,342 @@
+{
+  "response": {
+    "apps": [
+      {
+        "appid": 5204850,
+        "name": "The Tale of the King and The Lorn Knight Called Sir Roberdroric",
+        "last_modified": 1788711829,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5204930,
+        "name": "Ops Normal: Airline Operations Control Center",
+        "last_modified": 1788735179,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5205180,
+        "name": "Milky",
+        "last_modified": 1788898693,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5205200,
+        "name": "Rest in Profit",
+        "last_modified": 1788617350,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5205310,
+        "name": "Bank Architect",
+        "last_modified": 1788860493,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5205550,
+        "name": "SEDUCTION GYM",
+        "last_modified": 1788546670,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5206040,
+        "name": "Hex Core Idle",
+        "last_modified": 1788884351,
+        "price_change_number": 38491090
+      },
+      {
+        "appid": 5206420,
+        "name": "Big Sister",
+        "last_modified": 1788831436,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5206970,
+        "name": "NeuralBeat Studio: AI FX Studio",
+        "last_modified": 1788867449,
+        "price_change_number": 38707476
+      },
+      {
+        "appid": 5207010,
+        "name": "Gateholt",
+        "last_modified": 1788857087,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207090,
+        "name": "Golazo: Arcade Football Cup",
+        "last_modified": 1788812907,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207350,
+        "name": "\u6587\u666f\u76f8\u751f",
+        "last_modified": 1788747323,
+        "price_change_number": 38497723
+      },
+      {
+        "appid": 5207580,
+        "name": "Hentai Femboy Secretary",
+        "last_modified": 1788940937,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207820,
+        "name": "Rich & Youn: Calendar 2027",
+        "last_modified": 1788933947,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207830,
+        "name": "Rich & Youn: Animation Pack",
+        "last_modified": 1788933953,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207840,
+        "name": "Rich & Youn: Exclusive Artbook",
+        "last_modified": 1788933950,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207870,
+        "name": "Rich & Youn: Special Render & All Images Pack",
+        "last_modified": 1788933955,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5207950,
+        "name": "Draft to Legion",
+        "last_modified": 1788959961,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208110,
+        "name": "NEONOVA Puzzle: Blue",
+        "last_modified": 1788898832,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208170,
+        "name": "Catoscope",
+        "last_modified": 1788925707,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208240,
+        "name": "ESC ape, You died?",
+        "last_modified": 1788920933,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208330,
+        "name": "I was rebuilt - Official Artwork",
+        "last_modified": 1788761677,
+        "price_change_number": 38658332
+      },
+      {
+        "appid": 5208380,
+        "name": "Visual Novel: EVENING BROADCAST",
+        "last_modified": 1788662555,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208510,
+        "name": "Embersong: History Is Yours",
+        "last_modified": 1788922838,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208830,
+        "name": "Method in the Witchness",
+        "last_modified": 1788891230,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5208870,
+        "name": "Where Sinners Sleep",
+        "last_modified": 1788944565,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5209010,
+        "name": "Croak Party",
+        "last_modified": 1788956234,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5209030,
+        "name": "Gang Takeover",
+        "last_modified": 1788891935,
+        "price_change_number": 38507395
+      },
+      {
+        "appid": 5209180,
+        "name": "deal with the deep",
+        "last_modified": 1788938316,
+        "price_change_number": 38508024
+      },
+      {
+        "appid": 5209350,
+        "name": "You Should Consider Making a Burger EX - Artbook",
+        "last_modified": 1788791813,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5209490,
+        "name": "GoatCart Supporter Package",
+        "last_modified": 1788788583,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5209530,
+        "name": "Peel & Place",
+        "last_modified": 1788678189,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5209820,
+        "name": "Mr. Barrel - Supporter Pack",
+        "last_modified": 1788933841,
+        "price_change_number": 38717864
+      },
+      {
+        "appid": 5209990,
+        "name": "Hover Idle: Grid Master",
+        "last_modified": 1788792181,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5210050,
+        "name": "Love is Everywhere",
+        "last_modified": 1788725096,
+        "price_change_number": 38513453
+      },
+      {
+        "appid": 5210440,
+        "name": "Crosstalk: Cubejuggler",
+        "last_modified": 1788747865,
+        "price_change_number": 38655088
+      },
+      {
+        "appid": 5210500,
+        "name": "No Scope CEO",
+        "last_modified": 1788950559,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5210640,
+        "name": "Sealed Fortress",
+        "last_modified": 1788761350,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5210920,
+        "name": "POLICEMAN FROM THE FUTURE",
+        "last_modified": 1788884290,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5212620,
+        "name": "Tide and Crown",
+        "last_modified": 1788798760,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5212750,
+        "name": "Island Off Outer Dancing - Bundle Showcase Crossover Supporter Pack",
+        "last_modified": 1788794986,
+        "price_change_number": 38670958
+      },
+      {
+        "appid": 5213220,
+        "name": "Pro Endurance Series: Running Manager",
+        "last_modified": 1788907116,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213280,
+        "name": "Solar Imperium",
+        "last_modified": 1788901154,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213320,
+        "name": "The G\u00f6kt\u00fcrk: Caravan",
+        "last_modified": 1788899632,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213350,
+        "name": "Soundkeeper: Listen and Sort",
+        "last_modified": 1788886922,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213570,
+        "name": "FPV Sky - Drone Simulator",
+        "last_modified": 1788919471,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213660,
+        "name": "Gundrobe",
+        "last_modified": 1788904278,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5213860,
+        "name": "Coloring Pixels - Wild West Pack",
+        "last_modified": 1788959738,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5214350,
+        "name": "Soul Monsters: Gael's Survival",
+        "last_modified": 1788945080,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5214600,
+        "name": "The Nullway",
+        "last_modified": 1788952152,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5215190,
+        "name": "PotionsTidy",
+        "last_modified": 1788900787,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5217110,
+        "name": "Tidy Up the Bookstore",
+        "last_modified": 1788893918,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5217440,
+        "name": "FailRooms",
+        "last_modified": 1788943984,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5217730,
+        "name": "MARGIN: Raj Minerals",
+        "last_modified": 1788911853,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5218170,
+        "name": "Downhill Drift",
+        "last_modified": 1788943479,
+        "price_change_number": 0
+      },
+      {
+        "appid": 5218810,
+        "name": "NULL ROUTE",
+        "last_modified": 1788939769,
+        "price_change_number": 0
+      }
+    ]
+  }
+}

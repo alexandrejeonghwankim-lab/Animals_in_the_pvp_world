@@ -218,12 +218,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-# some data
-from50to100k.json
-from100kup.json
-from150kup.json
-from200kup.json
-from250kup.json
+
 
 # airflow related
 
