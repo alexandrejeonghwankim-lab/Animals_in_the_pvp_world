@@ -4,7 +4,19 @@
 
 ## Overview
 
-This project is a Python-based data collection and analysis system for Steam API data. It fetches information about Steam applications and stores it for further analysis and processing.
+This project is a Python-based data collection and analysis system for Steam API data. It fetches information about Steam applications and stores it for further analysis and processing. Automation implemented using Airflow.
+
+### First Step
+
+Getting app ids from Steam API. (50k per request)
+
+### Second Step
+
+Creating a database for raw data.
+
+### Third Step
+
+Getting apps details and storing them in the db. (200 per request, once every 6 minutes)  Scheduled with Airflow.
 
 ## Project Structure
 
@@ -37,7 +49,7 @@ Configuration file containing:
 Main script for fetching Steam API data:
 
 **Functions:**
-- `load_api_key()`: Loads Steam API key from `.env` file
+- `load_api_key()`: Loads Steam API key from a **local** `.env` file
 - `fetch_app_page(api_key)`: Fetches Steam app data with pagination support
 - `main()`: Entry point that orchestrates the data fetching process
 
@@ -49,8 +61,37 @@ Main script for fetching Steam API data:
 - Provides feedback on available results and pagination status
 
 **Output:**
-- Saves fetched data to `from250kup.json`
+- Saves fetched data to a new json file. Results in multiple files containing up to 50k objects.
 
+### `create_db.py`
+Main DAG for creating the raw details db:
+
+**Task:**
+- `create_database_tables()`: Create the records tables.
+
+**Features:**
+- Connects to the db path with SQLite3
+- Creates the **records** table *if it does not exists*
+- With 3 columns : id, data (string of json), date_collected (auto-fill)
+
+**Output:**
+- *Database and table created successfully*
+### `fetch_details.py`
+Main DAG fortgetting the raw details of each steam app on a schedule of 200 every 6 minutes :
+
+**Task:**
+- `fetch_steam_batch()`: Gets the next 200 apps' details.
+
+**Features:**
+- Reads a json file of appids and identify the next 200 to fetch thanks to an Airflow Variable storing the last used
+- Becomes a skipped DAG if there is no more appids details to fetch (and stops by accessing airflow metadata and modifying it but bad practice to be removed)
+- Calls app details, one at a time, and stores it in the raw database.
+- Stops if code *429* returned
+- Stores failed appids requests in a txt file
+
+**Output:**
+- *Batch completed. Successfully processed {successful_calls} apps.*
+- *Updated Airflow Variable 'steam_last_appid_fetched' to {current_last_id}.*
 ## Setup Instructions
 
 ### Prerequisites
@@ -70,7 +111,7 @@ Main script for fetching Steam API data:
    STEAM_API_KEY=your_steam_api_key_here
    ```
 
-3. Install dependencies (if needed):
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt  # if available
    ```
@@ -84,8 +125,19 @@ python fetch_steamapi.py
 This will:
 1. Load your Steam API key from the `.env` file
 2. Fetch Steam app data (limited to 50,000 results per request)
-3. Save the results to `from250kup.json`
+3. Save the results to `afile.json`
 4. Display pagination information for fetching remaining data
+
+
+### Running Airflow in development
+ 
+```bash
+airflow standalone
+```
+
+Authentification: find auto-generated *username* and *password* in `simple_auth_manager_passwords.json.generated`
+
+You can then make use of the Airflow UI to trigger and managed DAGS.
 
 ## Important Notes
 
@@ -94,6 +146,7 @@ This will:
 - A `price_change_number` field indicates if prices have changed since the last fetch
 - Requests are rate-limited with a 1-second delay to respect API quotas
 
+- The requests for details are limited to **200 every 5 minutes**
 ## Technology Stack
 
 - **Language**: Python 100%
@@ -107,14 +160,16 @@ The `dags/` directory is set up for Apache Airflow workflows to automate and sch
 
 The `data/` directory stores all project data and databases.
 
-## License
 
-[License information to be added]
 
 ## Authors
 
-- Created by alexandrejeonghwankim-lab
+-  [Alex Kim](https://github.com/alexandrejeonghwankim-lab)
 
+-  [Max H.](https://github.com/Max96H)
+- [Victor Courtois](https://github.com/VictorCourtois135)
+
+- [Sooyoung Lee](https://github.com/patoobyte) 
 ---
 
 For more information about the Steam API, visit the [Steam Web API documentation](https://developer.valvesoftware.com/wiki/Steam_Web_API).
